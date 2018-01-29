@@ -145,9 +145,9 @@ You can migrate several type of data and you can update
 
  ### Relationship between the Database model :couple:
 
-Often in a project, you have several database and they are all related.
-To pursue our example with the smartphone above, you can have your contact list and also a several account or services linked to your phone number (facebook account, email account, etc..).
-If you want to link two model you will have to precise in the rail app who belongs to who. The example below is based on blog articles and the comments on each articles.
+Often in a project, you have several databases and they are all related.
+To pursue our example with the smartphone above, you can have your contact list and also several accounts or services linked to your phone number (facebook account, email account, etc..).
+If you want to link two models you will have to precise in the rail app who belongs to who. The example below is based on blog articles and comments on each articles.
 
 You will need to add the below code in the article.rb
 
