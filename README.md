@@ -68,7 +68,7 @@ The controller is the bridge between the model and the view. It receives the inp
 
  ### Routes :oncoming_automobile:
 
- In rails, the routes are a way to indicate what action the controller is expected to do when the client make a request on a specific HTTP adress.
+ In rails, the routes are a way to indicate what action the controller is expected to do when the client makes a request on a specific HTTP adress.
 
 For instance in your routes.rb file you can add :
 
@@ -88,7 +88,7 @@ The following command shows all the routes of the current rails application:
 
  ### Database :dvd:
 
- ![Database](http://www.freepngimg.com/download/database/3-2-database-free-download-png.png)
+ ![Database](https://cp-mlxprod-static.microsoft.com/014929-1004/en-us/thumbnail.png)
 
  **What is a Database ?**
 
