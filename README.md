@@ -36,7 +36,7 @@ You can find video :movie_camera:, music :musical_score: or flash animations :di
 
 Conversely, a dynamic website does not display the same page for every user.
 The displayed page can change based on several parameteres, for instance the data provided by the user or the hour of the connexion. Then, these data will create queries directly to the database of the website (i.e. the server) and these queries will generate a specific html page that will be display in the client.<br>
-A good example of dynamic website is [Facebook](http://facebook.com): every user has a different flux in the feed
+A good example of dynamic website is [Facebook](http://facebook.com): every user has a different feed in the homepage.
 
 
 - [X] What is the difference between a static and a dynamic website ?
@@ -50,7 +50,7 @@ The MVC Architecture is composed of three things : <br>
 
 ![MVC](https://i.stack.imgur.com/xjBSZ.png)
 
-This software architectural pattern allows a more flexible coding, since the data, the interface and the processing are thought as a whole but design separately.
+This software architectural pattern allows a more flexible coding, since the data, the interface and the processing are thought as a whole but designed separately.
 
 * **The Model** :bulb:
 
