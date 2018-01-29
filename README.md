@@ -90,6 +90,14 @@ DELETE | /articles/ | articles#delete |  delete the specific article
 
  ### Database :dvd:
 
+ ![Database](http://www.freepngimg.com/download/database/3-2-database-free-download-png.png)
+
+ **What is a Database ?**
+
+ The answer is quite simple : it is an organized set of data. To give you an example, on your smartphone, your contact list is a database. Every phone number is sorted using a primary key (the firstname of the contact) and maybe a secondary key (the lastname).
+
+ In a nutshell, it allows the user to structure its data and easily find a **relevant** and **specific** piece of information.
+
  - [X] Database
 
   ### GET & POST request :postbox:
