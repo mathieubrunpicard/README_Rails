@@ -2,7 +2,7 @@
 
 ***
 
-## Together we are going to go through several essential concepts on Ruby on Rails
+## Together we are going to go through several essential concepts on Ruby on Rails :tram:
 
 ![Ruby on rails](http://rubyonrails.org/images/rails-logo.svg)
 
@@ -23,7 +23,7 @@
 
  ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg)
 
-* **Static website**
+* **Static website** :eight_pointed_black_star:
 
 A static website is, as its name indicates, the result of a query by the client (i.e. the Browser) to the server. <br>
 The result is expected to be the same for every clients (unless the webmaster decides to change anything on the website).
@@ -32,7 +32,7 @@ A good example of a static website is the following : [Static website](mathieubr
 :warning: :A static website, does not mean that there is no animation on the webpage. <br>
 You can find video :movie_camera:, music :musical_score: or animations on a static website.
 
-* **Dynamic website**
+* **Dynamic website** :sparkle:
 
 Conversely, a dynamic website does not display the same page for every user.
 The displayed page can change based on several parameteres, for instance the data provided by the user or the hour of the connexion. Then, these data will create queries directly to the database of the website (i.e. the server) and these queries will generate a specific html page that will be display in the client.<br>
@@ -75,16 +75,9 @@ For instance in your routes.rb file you can add :
 ```Ruby
 resources :articles
 ```
-This will add six different routes when you arrive on the url : < myurl/articles as seen in the table below:
-
-HTTP Verb | Path | Controller#Action |  Used for
------------- | ------------- | ------------- | -------------
-GET | /articles/new | articles#new |  return an HTML form for creating the article
-POST | /articles | articles#create |  create the new article
-GET | /articles | articles#show |  display the specific article
-GET | /articles/edit | articles#edit |  return an HTML form for editing the article
-PATCH/PUT | /articles/ | articles#update |  update the specific article
-DELETE | /articles/ | articles#delete |  delete the specific article
+This will add six different routes when you arrive on the url :
+< myurl/articles
+as seen in the table below in the section GET/POST.
 
 The following command shows all the routes of the current rails application:
 ```Ruby
@@ -121,6 +114,19 @@ In the Article database, for each Article, I will have these three parameters (a
  - [X] Database
 
   ### GET & POST request :postbox:
+
+  The table below summarizes the GET & POST requests.
+
+  HTTP Verb | Path | Controller#Action |  Used for
+------------ | ------------- | ------------- | -------------
+GET | /articles/new | articles#new |  return an HTML form for creating the article
+POST | /articles | articles#create |  create the new article
+GET | /articles | articles#show |  display the specific article
+GET | /articles/edit | articles#edit |  return an HTML form for editing the article
+PATCH/PUT | /articles/ | articles#update |  update the specific article
+DELETE | /articles/ | articles#delete |  delete the specific article
+
+
  - [X] GET & POST requests
 
  ### The migration of data :ship:
@@ -159,5 +165,9 @@ You can migrate several type of data and you can update
 
  These are the four basic fonctions that are found in every database.
  - [X] The CRUD
+
+If I am not clear on a topic or if you just want to speak with me, do not hesitate to contact me on slack : @Mathieu :heart_decoration:
+
+![My Github](https://github.com/mathieubrunpicard/)
 
 
