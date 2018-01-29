@@ -12,3 +12,8 @@
  - [ ] The migration of data
  - [ ] The relationship between the Database model
  - [ ] The CRUD
+
+ ## Let us start with the difference between a static and a dynamic website
+
+
+- [X] What is the difference between a static and a dynamic website ?
