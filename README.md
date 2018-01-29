@@ -6,14 +6,20 @@
 
  - [ ] What is the difference between a static and a dynamic website ?
  - [ ] The MVC architecure
- - [ ] The routes
+ - [ ] The Routes
  - [ ] Database
  - [ ] GET & POST requests
  - [ ] The migration of data
  - [ ] The relationship between the Database model
  - [ ] The CRUD
 
- ## Let us start with the difference between a static and a dynamic website
+ ### Let us start with the difference between a static and a dynamic website:
+
+ ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg)
+
+* Static website
+
+* Dynamic website
 
 
 - [X] What is the difference between a static and a dynamic website ?
