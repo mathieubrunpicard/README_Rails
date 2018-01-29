@@ -170,16 +170,16 @@ belongs_to :articles
 
  CRUD's meaning is the following :
 
- * Create:
+ * Create: <br>
  Allows the user to create content
  > PUT or POST in HTTP
- * Read
+ * Read: <br>
   Allows the user to read the content
   > GET in HTTP
- * Update
+ * Update: <br>
   Allows the user to update the content
   > PUT / POST / PATCH in HTTP
- * Destroy
+ * Destroy: <br>
  Allow the user to delete the content
  > DELETE in HTTP
 
