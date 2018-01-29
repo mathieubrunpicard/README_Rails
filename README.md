@@ -29,7 +29,7 @@ A static website is, as its name indicates, the result of a query by the client 
 The result is expected to be the same for every clients (unless the webmaster decides to change anything on the website).
 A good example of a static website is the following : [Static website](mathieubrunpicard.github.io)
 
-:warning: :A static website, does not mean that there is no animation on the webpage. <br>
+:warning: A static website, does not mean that there is no animation on the webpage. <br>
 You can find video :movie_camera:, music :musical_score: or animations on a static website.
 
 * **Dynamic website** :sparkle:
