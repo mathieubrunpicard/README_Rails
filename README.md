@@ -86,6 +86,11 @@ GET | /articles/edit | articles#edit |  return an HTML form for editing the arti
 PATCH/PUT | /articles/ | articles#update |  update the specific article
 DELETE | /articles/ | articles#delete |  delete the specific article
 
+The following command shows all the routes of the current rails application:
+```Ruby
+  rails routes
+ ```
+
  - [X] The Routes
 
  ### Database :dvd:
@@ -94,9 +99,24 @@ DELETE | /articles/ | articles#delete |  delete the specific article
 
  **What is a Database ?**
 
- The answer is quite simple : it is an organized set of data. To give you an example, on your smartphone, your contact list is a database. Every phone number is sorted using a primary key (the firstname of the contact) and maybe a secondary key (the lastname).
+ The answer is quite simple : it is an organized set of data (you can think of a big spreadsheet). </br>
+ To give you an example, on your smartphone, your contact list is a database. Every phone number is sorted using a primary key (the firstname of the contact) and maybe a secondary key (the lastname).
 
  In a nutshell, it allows the user to structure its data and easily find a **relevant** and **specific** piece of information.
+
+ To follow our article example set above, if I want to create a database on rails I will type the following command in my terminal:
+ ```Ruby
+ rails generate model article
+ ```
+ It will generate a database of articles. Then I will precise what element I will be looking at (Title, subtitle, body) like that :
+
+ ```Ruby
+ t.string :title
+  t.string :subtitle
+t.text :body
+```
+In the Article database, for each Article, I will have these three parameters (and several others not mentionned here such as the unique id of the article for instance).
+
 
  - [X] Database
 
@@ -104,6 +124,14 @@ DELETE | /articles/ | articles#delete |  delete the specific article
  - [X] GET & POST requests
 
  ### The migration of data :ship:
+
+ As stated in the Database part, when we set a database, in order to use it the user should type the following command line in its consol:
+
+ ```Ruby
+  rails db:migrate
+ ```
+From this, we understand that the concept of migration allows the user either to create or update its database.
+You can migrate several type of data and you can update
 
  - [X] The migration of data
 
