@@ -58,4 +58,27 @@ It consists in the User Interface displayed on the client. It is the representat
 
 The controller is the bridge between the model and the view. It receives the input from the user, converts it in a request for the model or a command for the view.
 
+ - [X] The MVC architecure
+
+ ### Roads :oncoming_automobile:
+
+ - [X] The Routes
+
+ ### Database :dvd:
+
+ - [X] Database
+
+  ### GET & POST request :postbox:
+ - [X] GET & POST requests
+
+ ### The migration of data :ship:
+
+ - [X] The migration of data
+
+ ### Relationship between the Database model :couple:
+ - [X] The relationship between the Database model
+
+ ### The CRUD :closed_lock_with_key:
+ - [X] The CRUD
+
 
