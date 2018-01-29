@@ -17,9 +17,13 @@
 
  ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg)
 
-* Static website
+* **Static website**
 
-* Dynamic website
+A static website is, as its name indicates, the result of a query by the client (i.e. the Browser) to the server. <br>
+The result is expected to be the same for every clients (unless the webmaster decides to change anything on the website).
+A good example of a static website is the following : [static website](mathieubrunpicard.github.io)
+
+* **Dynamic website**
 
 
 - [X] What is the difference between a static and a dynamic website ?
