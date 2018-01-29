@@ -20,8 +20,8 @@
  ***
 
  ### Let us start with the difference between a static and a dynamic website :rocket: :
-<p style="text-align: center;">
- ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg) </p>
+
+ ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg)
 
 * **Static website** :eight_pointed_black_star:
 
@@ -48,9 +48,7 @@ The MVC Architecture is composed of three things : <br>
 2. View
 3. Controller
 
-<p style="text-align: center;">
-
-![MVC](https://i.stack.imgur.com/xjBSZ.png) </p>
+![MVC](https://i.stack.imgur.com/xjBSZ.png)
 
 This architecture allows a more flexible coding, since the data, the interface and the processing are thought as a whole but design separately.
 
@@ -89,8 +87,8 @@ The following command shows all the routes of the current rails application:
  - [X] The Routes
 
  ### Database :dvd:
-<p style="text-align: center;">
- ![Database](http://www.freepngimg.com/download/database/3-2-database-free-download-png.png) </p>
+
+ ![Database](http://www.freepngimg.com/download/database/3-2-database-free-download-png.png)
 
  **What is a Database ?**
 
@@ -168,9 +166,7 @@ belongs_to :articles
 
  ### The CRUD :closed_lock_with_key:
 
- <p style="text-align: center;">
-
- ![CRUD](https://static1.squarespace.com/static/555dc243e4b0fa866e3e41a9/t/5926bcdf9de4bbba0f69cd10/1495710948784/) </p>
+ ![CRUD](https://static1.squarespace.com/static/555dc243e4b0fa866e3e41a9/t/5926bcdf9de4bbba0f69cd10/1495710948784/)
 
  CRUD's meaning is the following :
 
