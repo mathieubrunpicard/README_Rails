@@ -79,6 +79,25 @@ The controller is the bridge between the model and the view. It receives the inp
  - [X] The relationship between the Database model
 
  ### The CRUD :closed_lock_with_key:
+
+ ![CRUD](https://static1.squarespace.com/static/555dc243e4b0fa866e3e41a9/t/5926bcdf9de4bbba0f69cd10/1495710948784/)
+
+ CRUD's meaning is the following :
+
+ * Create:
+ Allows the user to create content
+ > PUT or POST in HTTP
+ * Read
+  Allows the user to read the content
+  > GET in HTTP
+ * Update
+  Allows the user to update the content
+  > PUT / POST / PATCH in HTTP
+ * Destroy
+ Allow the user to delete the content
+ > DELETE in HTTP
+
+ These are the four basic fonctions that are found in every database.
  - [X] The CRUD
 
 
