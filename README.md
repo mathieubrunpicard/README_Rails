@@ -1,4 +1,4 @@
-# Welcome to this README
+# Welcome to this README :stars:
 
 ***
 
@@ -20,8 +20,8 @@
  ***
 
  ### Let us start with the difference between a static and a dynamic website :rocket: :
-
- ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg)
+<p style="text-align: center;">
+ ![Dynamic vs Static](http://whatismyip.network/wp-content/uploads/2016/08/Static-IP-vs-Dynamic-IP-What-is-the-Difference.jpg) </p>
 
 * **Static website** :eight_pointed_black_star:
 
@@ -48,7 +48,9 @@ The MVC Architecture is composed of three things : <br>
 2. View
 3. Controller
 
-![MVC](https://i.stack.imgur.com/xjBSZ.png)
+<p style="text-align: center;">
+
+![MVC](https://i.stack.imgur.com/xjBSZ.png) </p>
 
 This architecture allows a more flexible coding, since the data, the interface and the processing are thought as a whole but design separately.
 
@@ -87,8 +89,8 @@ The following command shows all the routes of the current rails application:
  - [X] The Routes
 
  ### Database :dvd:
-
- ![Database](http://www.freepngimg.com/download/database/3-2-database-free-download-png.png)
+<p style="text-align: center;">
+ ![Database](http://www.freepngimg.com/download/database/3-2-database-free-download-png.png) </p>
 
  **What is a Database ?**
 
@@ -114,6 +116,8 @@ In the Article database, for each Article, I will have these three parameters (a
  - [X] Database
 
   ### GET & POST request :postbox:
+
+  **GET** and **POST** are both **REST** methods. REST stands for Representational State Transfer. REST defines HTTP methods that allow the user's browser to interact with our server code.
 
   The table below summarizes the GET & POST requests.
 
@@ -142,11 +146,31 @@ You can migrate several type of data and you can update
  - [X] The migration of data
 
  ### Relationship between the Database model :couple:
+
+Often in a project, you have several database and they are all related.
+To pursue our example with the smartphone above, you can have your contact list and also a several account or services linked to your phone number (facebook account, email account, etc..).
+If you want to link two model you will have to precise in the rail app who belongs to who. The example below is based on blog articles and the comments on each articles.
+
+You will need to add the below code in the article.rb
+
+```Ruby
+has_many : comments
+```
+
+and these lines below in comment.rb to link both models.
+
+```Ruby
+t.references :article, foreign_key: true
+belongs_to :articles
+```
+
  - [X] The relationship between the Database model
 
  ### The CRUD :closed_lock_with_key:
 
- ![CRUD](https://static1.squarespace.com/static/555dc243e4b0fa866e3e41a9/t/5926bcdf9de4bbba0f69cd10/1495710948784/)
+ <p style="text-align: center;">
+
+ ![CRUD](https://static1.squarespace.com/static/555dc243e4b0fa866e3e41a9/t/5926bcdf9de4bbba0f69cd10/1495710948784/) </p>
 
  CRUD's meaning is the following :
 
