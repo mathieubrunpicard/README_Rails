@@ -131,7 +131,7 @@ DELETE | /articles/ | articles#delete |  delete the specific article
 
  - [X] GET & POST requests
 
- ### The migration of data :ship:
+ ### The migration of data :globe_with_meridians:
 
  As stated in the Database part, when we set a database, in order to use it the user should type the following command line in its consol:
 
@@ -186,7 +186,7 @@ belongs_to :articles
  These are the four basic fonctions that are found in every database.
  - [X] The CRUD
 
-If I am not clear on a topic or if you just want to speak with me, do not hesitate to contact me on slack : @Mathieu :heart_decoration:
+If I am not clear on a topic or if you just want to speak with me, do not hesitate to contact me on slack : @Mathieu :baby_chick:
 
 ![My Github](https://github.com/mathieubrunpicard/)
 
