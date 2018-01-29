@@ -60,7 +60,9 @@ The controller is the bridge between the model and the view. It receives the inp
 
  - [X] The MVC architecure
 
- ### Roads :oncoming_automobile:
+ ### Routes :oncoming_automobile:
+
+ In rails, the routes are a way to indicate what action the controller is expected to do when the client make a request on a specific HTTP adress.
 
  - [X] The Routes
 
