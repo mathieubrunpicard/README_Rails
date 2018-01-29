@@ -1,8 +1,12 @@
 # Welcome to this README
+
+***
+
 ## Together we are going to go through several essential concepts on Ruby on Rails
 
 ![Ruby on rails](http://rubyonrails.org/images/rails-logo.svg)
 
+***
 
  - [ ] What is the difference between a static and a dynamic website ?
  - [ ] The MVC architecure
@@ -12,6 +16,8 @@
  - [ ] The migration of data
  - [ ] The relationship between the Database model
  - [ ] The CRUD
+
+ ***
 
  ### Let us start with the difference between a static and a dynamic website :rocket: :
 
@@ -24,7 +30,7 @@ The result is expected to be the same for every clients (unless the webmaster de
 A good example of a static website is the following : [Static website](mathieubrunpicard.github.io)
 
 :warning: :A static website, does not mean that there is no animation on the webpage. <br>
-You can find video :movie_camera:, music :musical_score: or animations.
+You can find video :movie_camera:, music :musical_score: or animations on a static website.
 
 * **Dynamic website**
 
@@ -63,6 +69,22 @@ The controller is the bridge between the model and the view. It receives the inp
  ### Routes :oncoming_automobile:
 
  In rails, the routes are a way to indicate what action the controller is expected to do when the client make a request on a specific HTTP adress.
+
+For instance in your routes.rb file you can add :
+
+```Ruby
+resources :articles
+```
+This will add six different routes when you arrive on the url : < myurl/articles as seen in the table below:
+
+HTTP Verb | Path | Controller#Action |  Used for
+------------ | ------------- | ------------- | -------------
+GET | /articles/new | articles#new |  return an HTML form for creating the article
+POST | /articles | articles#create |  create the new article
+GET | /articles | articles#show |  display the specific article
+GET | /articles/edit | articles#edit |  return an HTML form for editing the article
+PATCH/PUT | /articles/ | articles#update |  update the specific article
+DELETE | /articles/ | articles#delete |  delete the specific article
 
  - [X] The Routes
 
