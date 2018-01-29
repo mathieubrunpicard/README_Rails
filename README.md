@@ -30,7 +30,7 @@ The result is expected to be the same for every clients (unless the webmaster de
 A good example of a static website is the following : [Static website](mathieubrunpicard.github.io)
 
 :warning: A static website, does not mean that there is no animation on the webpage. <br>
-You can find video :movie_camera:, music :musical_score: or animations on a static website.
+You can find video :movie_camera:, music :musical_score: or flash animations :dizzy: on a static website.
 
 * **Dynamic website** :sparkle:
 
